@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Home room",
+        "id": 0,
+        "description": "You stand in a normal room. You see a door to the north.",
+        "exits": {
+            "n": {
+                "roomId": 1,
+                "keyItemId": 0,
+                "hasBeenUnlocked": false
+            }
+        }
+    },
+    {
+        "name": "A second room",
+        "id": 1,
+        "description": "WHAT?! A new room? You see an exit to the first room down south",
+        "exits": {
+            "s": {
+                "roomId": 0
+            }
+        }
+    }
+]
