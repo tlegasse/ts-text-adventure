@@ -1,5 +1,5 @@
-import Inventory from "../classes/Inventory"
-import Room from "../classes/Room"
+import Inventory from "./Inventory"
+import Room from "./Room"
 import DescribeAction from "./DescribeAction"
 import MoveAction from "./MoveAction"
 import InputProcessor from "./InputProcessor"

@@ -1,4 +1,4 @@
-import RoomDataInterface from "../interfaces/RoomDataInterface"
+import RoomDataInterface from "./RoomDataInterface"
 import Room from "./Room"
 
 class RoomManager {

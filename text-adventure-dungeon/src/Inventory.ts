@@ -1,4 +1,4 @@
-import ItemDataInterface from "../interfaces/ItemDataInterface"
+import ItemDataInterface from "./ItemDataInterface"
 import Item from "./Item"
 
 class Inventory {

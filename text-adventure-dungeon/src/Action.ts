@@ -1,4 +1,4 @@
-import ActionInterface from "../interfaces/ActionInterface"
+import ActionInterface from "./ActionInterface"
 
 abstract class Action implements ActionInterface {
     words: string[] = []

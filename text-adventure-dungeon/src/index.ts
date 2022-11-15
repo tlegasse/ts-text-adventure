@@ -1,14 +1,14 @@
-import GameOptionsInterface from "./interfaces/GameOptionsInterface"
-import InputProcessor from "./classes/InputProcessor"
-import Inventory from "./classes/Inventory"
-import MoveProcessor from "./classes/MoveProcessor"
-import ItemDataInterface from "./interfaces/ItemDataInterface"
+import GameOptionsInterface from "./GameOptionsInterface"
+import InputProcessor from "./InputProcessor"
+import Inventory from "./Inventory"
+import MoveProcessor from "./MoveProcessor"
+import ItemDataInterface from "./ItemDataInterface"
+import RoomDataInterface from "./RoomDataInterface"
 import ItemData from "./data/items.json"
-import RoomDataInterface from "./interfaces/RoomDataInterface"
 import RoomData from "./data/rooms.json"
-import RoomManager from "./classes/RoomManager"
-import Room from "./classes/Room"
-import Action from "./classes/Action"
+import RoomManager from "./RoomManager"
+import Room from "./Room"
+import Action from "./Action"
 
 /**
  * Our main game controller class. Accepts options to make it all happen.

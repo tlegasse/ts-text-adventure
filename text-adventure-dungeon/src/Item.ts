@@ -1,4 +1,4 @@
-import ItemDataInterface from "../interfaces/ItemDataInterface"
+import ItemDataInterface from "./ItemDataInterface"
 
 class Item implements ItemDataInterface {
     public collectable: boolean = false

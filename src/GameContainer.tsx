@@ -1,7 +1,7 @@
 import React, {FormEvent, useState} from "react"
 import GameInput from "./GameInput"
 import GameOutput from "./GameOutput"
-import Game from "../Dungeon/Dungeon"
+import Game from "../text-adventure-dungeon/src/index"
 
 function GameContainer(){
     const [ outputs, setOutputs ] = useState<Array<string>>([])

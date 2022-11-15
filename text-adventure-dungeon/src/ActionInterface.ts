@@ -1,4 +1,4 @@
-import InputPartsInterface from "../interfaces/InputPartsInterface"
+import InputPartsInterface from "./InputPartsInterface"
 
 interface ActionInterface {
     words: string[],

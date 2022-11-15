@@ -1,4 +1,4 @@
-import Item from "../classes/Item"
+import Item from "./Item"
 
 interface RoomDataInterface {
     name: string

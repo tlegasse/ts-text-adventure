@@ -6,7 +6,6 @@ class Actions {
     actions: Action[] = [
         new MoveAction(),
         new DescribeAction()
-
     ]
 }
 
