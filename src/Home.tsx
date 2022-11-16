@@ -2,7 +2,7 @@ import GameContainer from './GameContainer';
 
 function App() {
   return (
-    <div className='text-orange-400'>
+    <div className="text-white font-mono">
       <GameContainer />
     </div>
   );

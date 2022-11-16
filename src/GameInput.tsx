@@ -20,7 +20,7 @@ function GameInput(props: any){
                     setInputValue('')
                     props.updateGameInput(e, inputValue)
                 }}>
-                <input type='text' id="gameInput" name='gameInput' onChange={handleChange} value={inputValue} />
+                <input className="w-full bottom-0 bg-transparent border-none shadow-none mt-5" type='text' id="gameInput" name='gameInput' onChange={handleChange} value={inputValue} />
             </form>
         </>
         )

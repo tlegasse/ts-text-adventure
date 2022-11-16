@@ -12,17 +12,17 @@ function GameContainer(){
             outputs: outputs
         })
     )
-    
+
     const updateGameInput = (event: React.FormEvent<HTMLFormElement>, inputValue: string): void => {
         event.preventDefault()
         dungeonGame.processInput(inputValue, true)
     }
 
     return(
-        <>
+        <div className="flex-col justify-end px-2 py-5 bg-slate-900 h-screen overflow-scroll">
             <GameOutput outputs={outputs} />
             <GameInput updateGameInput={updateGameInput} />
-        </>
+        </div>
     )
 }
 
