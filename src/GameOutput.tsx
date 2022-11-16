@@ -5,7 +5,7 @@ function GameOutput(props:any){
 
     return(
         <>
-            { props.outputs && props.outputs.map((output:string, key:number) => <p key={key}>{ output }</p>) }
+            { props.outputs && props.outputs.map((output:string, key:number) => <p className="pb-2" key={key}>{ output }</p>) }
         </>
     )
 }
